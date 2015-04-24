@@ -33,7 +33,7 @@ header {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: #383B3D: 
+    background-color: #383B3D 
 }
 
 .nav a {
@@ -168,7 +168,6 @@ li {
     float: right;
     margin: 0;
     padding: 1em 1em 1em 0;
-    size: 3em
 }
 
 footer {
