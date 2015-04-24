@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+    font: normal 100%/1.5 Volkhov,serif;
+    background-color: #B5CEB9;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0
+}
+
+.banner {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}   
+
+.bannerwrap {
+    position: relative
+}
+
+nav {
+    background-image: url(../images/logo.svg);
+    background-size: 12em;
+    background-repeat: no-repeat;
+    background-color: #383B3D;
+    padding: 3em;
+    margin: 0
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1.5px 1.5px 2px black;
+    
+    left: 0;
+    bottom: 50%;
+    margin: 0;
+    padding: 1em;
+    transform: translateY(50%);
+}
+
+.beginpara {
+    font-size: .9em;
+    padding: 1em .5em 2em;
+    margin: 2em .5em 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 1em
+}
+
+h3 {
+    padding-left: 1.75em;
+    font-size: 1.25em;
+}
+
+.ugh {
+    padding-top: 13em; 
+   
+}
+
+.para23 {
+    padding: .5em 1.75em 1em;
+    font-size: 1em
+}
+
+.halfspanl {
+    float: left;
+    padding: 0;
+    max-width: 50%;
+    clear: left;
+}
+
+.halfspanr {
+    float: right;
+    padding: 0;
+    max-width: 50%;
+    clear:right
+}
+
+.white101 {
+    margin: 0;
+    padding: 1em 0 3em;
+    background-color: white
+}
+
+.halspal {
+    float: left;
+    max-width: 50%
+}
+    
+.halspar {
+    float: right;
+    max-width: 50%;
+}
+    
+    
+    
+    
+    
+    
+    
