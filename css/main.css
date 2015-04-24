@@ -13,6 +13,11 @@ body {
     margin: 0
 }
 
+header {
+    background-color: #383B3D;
+    margin: 0;
+}
+
 .banner {
     padding: 0;
     margin: 0;
@@ -28,6 +33,37 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    background-color: #383B3D: 
+}
+
+.nav a {
+    text-decoration: none;
+    padding: .5em;
+    display: block;
+    color: #B5CEB9;
+    background-color: #383B3D
+}
+
+.nav a:hover {
+    background-color: #B5CEB9;
+    color:#383B3D;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+}
+
+.nav-label {
+    cursor: pointer;
+    font-size: 1.25em;
+    margin: 1em 0;
+    width: 50px;
+    display: inline-block;
+}
+
+.nav-label img {
+    display: block;
+    width: 100%;
 }
 
 .nav-check {
@@ -35,21 +71,9 @@ body {
     top: -3em;
 }
 
-.nav-check:checked ~ .nav {
-    display: block;
-}
-
-.nav-check:checked ~ .nav-label {
-    background-color: grey;
-}
-
-nav {
-    background-image: url(../images/logo.svg);
-    background-size: 12em;
-    background-repeat: no-repeat;
-    background-color: #383B3D;
-    padding: 3em;
-    margin: 0
+.logo {
+    float: left;
+    width: 170px;
 }
 
 h1 {
