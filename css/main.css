@@ -23,6 +23,26 @@ body {
     position: relative
 }
 
+.nav {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+}
+
+.nav-check:checked ~ .nav-label {
+    background-color: grey;
+}
+
 nav {
     background-image: url(../images/logo.svg);
     background-size: 12em;
@@ -88,7 +108,6 @@ h3 {
     margin: 0;
     padding: 1em 0 3em;
     background-color: white;
-    margin-bottom: 13em
 }
 
 li {
@@ -120,6 +139,45 @@ li {
     text-align: center;
     margin: 0 .2em
 }
+
+.icons {
+    float: right;
+    margin: 0;
+    padding: 1em 1em 1em 0;
+    size: 3em
+}
+
+footer {
+    background-color: #383B3D;
+    margin: 0;
+    padding: 0 0 8em 0
+   
+}
+
+.footlogo {
+    max-width: 35%;
+    margin: 0;
+    padding: 0
+}
+
+h4 {
+    padding: 2em 0 0 1.25em;
+    font-size: 1.5em;
+    color: white
+}
+
+.footul {
+    list-style: none;
+    color: white;    
+}
+
+.footp {
+    color: white;
+    text-align: center;
+    padding-top: 1.5em
+}
+
+
     
     
     
